@@ -2,7 +2,7 @@ project "Assimp"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++17"
-	staticruntime "On"
+	staticruntime "off"
 
 	targetdir ("%{wks.location}/Build_Data/bin/" .. outputDir .. "/%{prj.name}")
 	objdir ("%{wks.location}/Build_Data/bin-obj/" .. outputDir .. "/%{prj.name}")
